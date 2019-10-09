@@ -1,0 +1,370 @@
+
+/*-------------------최초 계정 만들기-------------------*/
+#Wrapper{
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#Wrapper{
+    position: relative;
+    width: 100%;
+    height: 720px;
+}
+.popup-box1{
+    position: absolute;
+    width: 40%;
+    height: 720px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#464646;
+}
+.new-header{
+    max-width: 70%;
+    /*창의 크기를 줄이면 줄인만큼 충실히 줄어들지만,
+    크기를 키울 때는 원래 이미지 사이즈보다 커지지는 않는다.*/
+    height: 200px;
+    transform: translate(20%);
+    border: 2px solid royalblue;
+}
+/*--------상단헤더--------*/
+.header-box{
+    position: relative;
+    max-width: 100% ;
+    height: 200px;
+    border: 2px solid springgreen;
+}
+.logo2{
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%); 
+    margin: 0;
+}
+.header-write{
+    position: absolute;
+    display: inline;
+    left: 50%;
+    top: 115px;
+    transform: translate(-50%);
+    color: #dfdfdf;
+}
+/*----content-계정만들기 창----*/
+.user-write-box2{
+    position: relative;
+    max-width:100%;
+    left: 50%;
+    transform: translate(-50%); 
+    border: 1px solid sienna;
+}
+.user-join-id label{
+    position: absolute;
+    top: 15px; /*input 요소의 borderp-top 설정값 만큼*/
+    left: 4px; /*input 요소의 border-left 설정값 만큼*/
+    padding: .8em .6em; /*input요소의 padding 값만큼*/
+    color: #fff;
+    cursor: text;  /*마우스커서(focus시 변화되는 아이콘)설정*/
+}
+.user-join-pw label{
+    position: absolute;
+    top: 84px; /*input 요소의 borderp-top 설정값 만큼*/
+    left: 2px; /*input 요소의 border-left 설정값 만큼*/
+    padding: .8em .5em; /*input요소의 padding 값만큼*/
+    color: #fff;
+    cursor: text;  /*마우스커서(focus시 변화되는 아이콘)설정*/
+}
+.user-join-pw1 label{
+    position: absolute;
+    top: 160px; /*input 요소의 borderp-top 설정값 만큼*/
+    left: 2px; /*input 요소의 border-left 설정값 만큼*/
+    padding: .8em .5em; /*input요소의 padding 값만큼*/
+    color: #fff;
+    cursor: text; /*마우스커서(focus시 변화되는 아이콘)설정*/
+}
+/*경고글*/
+.user-write-box2 .wrong-join{
+    margin:8px 0 8px 0;
+    padding-left: 65%;
+    color: #fff; 
+}
+/*--------------------*/
+.first-session-box{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    top: 0;
+    left: 0;
+    border: 1px solid seagreen;
+}
+.form-box2{
+    position: absolute;
+    width: 70%;
+    height: 330px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    border:1px solid blue;
+}
+/*-----START BUTTON-----*/
+.submit-btn2{
+    position: absolute;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+/*-----------------------------------------------------*/
+/*-----------------/관리자로그인/-------------------------*/
+body{margin: 0; padding: 0;}
+ 
+#wrap{
+    position: relative;
+    max-width: 100%;
+    height: auto; 
+}
+#wrap .All-boxing{
+    position: absolute; 
+    width: 34%;
+    height: 980px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* box-shadow:0px 0px 20px #e4d4fd; */
+    background-color: #d0d0d0;
+}
+#wrap .box-catching{
+    position: relative;
+    top: 130px;
+    height: auto;
+}
+.logo-box{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+.logo{
+    position: absolute;
+    margin:0;
+    left: 30%;
+    top: 20%;
+}
+.login-name{
+    position: absolute;
+    left: 47%;
+    top: 20%;
+}
+/*--------------*/
+.logged-in-box{
+    position: relative;
+    max-width: 60%;
+    height: 300px;
+    left: 22%;
+}
+.login-text-box{
+    position: relative;
+    max-width: 100%;
+    height: 300px;
+}
+.form-box{
+    position: absolute;
+    width: 85%;
+    height: 250px;
+    top: 0;
+    left: 10%;
+    /* border: 1px solid blue; */
+}
+.user-write-box{
+    position: absolute;
+}
+.user-id label{
+    position: absolute;
+    top: 15px; /*input 요소의 borderp-top 설정값 만큼*/
+    left: 10px; /*input 요소의 border-left 설정값 만큼*/
+    padding: .8em .5em; /*input요소의 padding 값만큼*/
+    color: #595959;
+    cursor: text;  
+}
+.user-pw label{
+    position: absolute;
+    top: 80px; /*input 요소의 borderp-top 설정값 만큼*/
+    left: 8px; /*input 요소의 border-left 설정값 만큼*/
+    padding: .8em .5em; /*input요소의 padding 값만큼*/
+    color: #595959;
+    cursor: text;  
+}
+/* 계정-box*/
+input[type="text"], 
+input[type="password"] { 
+    height: auto; /* 높이 초기화 */ 
+    line-height: normal; /* line-height 초기화 */ 
+    margin: 12px 5px 12px 100px;
+    padding: 15px 50px 15px 10px; /* 여백 설정 */ 
+    background-color: #e3e3e3; /*box 배경설정*/
+    border: 0.5px solid #fff;
+    border-radius: 3px; /*둥근모서리 설정*/
+    font-size: 12pt;
+}
+/*box-포커스아웃라인제거*/
+input[type="text"], 
+input[type="password"]:focus {
+    outline:0; 
+}
+.wrong-login{
+    position: absolute;
+    top: 90%;
+    left: 65%;
+    color: red;   
+}
+
+/*--------------*/
+/*로그인 확인 버튼*/
+.submit-btn1{
+    position: relative;
+    top: 175px;
+}
+button{
+    height: auto;
+    padding: 15px 138px; /* 여백 설정 */ 
+    border: 0.5px solid #fff;/*모서리색상*/
+    border-radius: 3px; /*둥근모서리 설정*/
+}
+button>span{
+    color: red;
+    font-size: 15pt;
+}
+/*------비밀번호 재생성(잃어버렸을때)--------*/
+.reset-passwd{
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    top: 80%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.reset-passwd>a{
+    position: absolute;
+    width: 180px;
+    right: 25px;
+    margin: 0;
+    color: black;
+}
+/*------홈페이지돌아가기--------*/
+.back{
+    position: relative;
+    width: 100%;
+    height: 15px;
+    top: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.back>a{
+    position: absolute;
+    width: 160px;
+    right: 20%;
+    margin: 0;
+    color: black;
+}
+
+/*비밀번호생성 modal팝업창*/
+/*#modal-wrap{
+    display: block;
+    position: fixed;/*배경고정*/
+   /* z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;/*필요한 경우 스크롤사용*/
+/*    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}/*/
+/* #popup-pw{
+    position: relative;
+    background-color: #fefefe;
+    margin: 10% auto; 
+    border: 1px solid #888;
+    width: 50%;
+    height: 500px;
+}
+.header{
+    position: absolute;
+    max-width: 100%;
+    height: 20%;
+    background: #e3e3e3;
+}
+.article-modal{
+    position: absolute;
+    top: 25px;
+    left: 10%;
+} */
+/*-----------------------*/
+.popup-pw{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    max-width: 100%;
+    height: 60%;
+    transform: translate(-50%); 
+    border: 1px solid red;
+    background-color: #e3e3e3;
+}
+.header-pw-make{
+    border: 1px solid gold;
+    background-color: #cbcbcb;
+}
+.article-modal{
+    position: absolute;
+    width: 100%;
+    left: 5%;
+}
+.manager-form{
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid red; 
+    top: 20%;
+}
+.change-pw{
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+}
+.form-modal-pw-find{
+    width: 100%;
+    height: 50%;
+}
+.change-pw>label{
+    position: absolute;
+    border: 1px solid red;
+}
+
+.Btn-type{
+    position: relative;
+    width: 80%;
+    height: 50px;
+    border: 1px solid blue;
+    top: 40%;
+    left: 60%;
+    transform: translate(-62.5%);
+}
+.btn-box1{
+    position: absolute;
+    max-width: 100%;
+
+}
+.change1>button{
+    height: auto; /* 높이 초기화 */ 
+    line-height: normal; /* line-height 초기화 */ 
+    margin: 5px 5px 12px 100px;
+    padding: 10px 50px 10px 50px; /* 여백 설정 */ 
+    background-color: #ab7af0; /*box 배경설정*/
+    border: 0.5px solid #fff;
+    /* border-radius: 3px; 둥근모서리 설정 */
+    font-size: 12pt;
+    color: #fff;
+}

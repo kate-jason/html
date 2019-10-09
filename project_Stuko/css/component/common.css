@@ -1,0 +1,232 @@
+
+#wrap{
+    margin: 0;
+}
+
+/*네비게이션*/
+.header-nav{
+    float: left;
+    width: 10vw;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+/*----게시글----*/
+.contents{
+    position: relative;
+    width: 88vw;
+    float: right;
+    border: 1px solid goldenrod;
+}
+.post-box{
+    position: absolute;
+    width: 41vw;
+    height: 100vh;
+}
+/*베스트글*/
+.best-notice{
+    margin: 10px;
+    max-width: 45vw;
+    height: 230px;
+    background-color: rgb(156, 152, 209);
+}
+/*--------타임라인게시글-----------*/
+.notice{
+    max-width: 100vw;
+    height: 76vh;
+    float: left;
+}
+/*search*/
+.search{
+    max-width: 100vw;
+    margin: 5px;
+}
+.search input[type="text"]{
+    width: 95%;
+    border-radius: 2px;
+    padding: 20px 10px;
+    border: 0;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 11px;
+}
+/*게시글-box*/
+.notice .time-line{
+    max-height: 68vh;
+    padding: 5px;
+    margin-top: 10px;
+    list-style: none;
+    overflow: auto;
+    border: 1px solid gray;
+}
+.line-notice{
+    max-height:100vh;
+    overflow: auto;
+}
+.notice .cbp-tmtime>li{
+    height: 200px;
+    margin: 10px 0px;
+    list-style: none;
+    background-color: cornflowerblue;
+}
+.notice .cbp-tmtime>li:hover{
+    background-color: aliceblue;
+
+}
+.notice .cbp-tmtime li .timeline-in>h2{
+    padding: 17px;
+}
+.notice .cbp-tmtime li .timeline-in>p{
+    padding: 5px 17px;
+}
+.cbp-time{
+    padding: 2px;
+}
+.cbp-tmtime{
+    position: relative;
+    /* margin: 10px 0 0 0; */
+	padding: 5px;
+    list-style: none;
+}
+/* .cbp-tmtime:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #afdcf8;
+	left: 20%;
+	margin-left: -10px;
+} */
+
+/*------------채팅창------------*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+.chat-background{
+    width: 46vw;
+    height: 100vh;
+    float: right;
+    font-size: 11px;
+    border-left: 1px solid darkgray;
+}
+.chat-list-wrap{
+    height: 76.5%;
+    overflow-y: auto; /*scroll bar속성-박스를 넘어가지 않으면 스크롤바가 나오지 않고, 
+                                    박스를 넘어갈 때에는 스크롤바가 나옵니다.*/
+    list-style: none;
+    padding: 20px;
+    margin-left: 10px;
+}
+.chat-list-wrap .header{
+    position: relative;
+    padding: 29px 15px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid #464646;
+} 
+.chat-list-wrap .header>p{
+    position: absolute; 
+    top: 16px;
+    font-size: 24px;
+}
+
+.header>p:first-child{float: left;color: green;}
+.header>p:nth-child(2){
+    position: absolute;
+    left: 50px;
+}
+.header>p:nth-child(3){
+    position: absolute;
+    right: 67px;
+}
+.header>p:last-child{
+    position: absolute;
+    font-size: 27px;
+    font-weight: 800;
+    right: 20px;
+}
+.chat-list-wrap .chat-list{
+    padding:0 15px;
+}
+.chat-list-wrap .chat-list ul {
+    width: 100%;
+    list-style: none;
+    margin-top: 5px;
+  }
+.chat-list-wrap .chat-list ul li {
+    padding: 10px 0;
+}
+.chat-list-wrap .chat-list ul li img{
+    width: 30px;
+    height: 30px;
+    border-radius: 34px;
+    padding: 20px;
+    background-color: gray;
+}
+.chat-list ul li .random-name{
+    position: relative;
+    bottom: 33px;
+    left: 52px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.chat-content{
+    /* width: 60%; */
+    height: 40px;
+    border-radius: 5px;
+    margin-top: -24px;
+    margin-left: 47px;
+    line-height: 16px;
+    font-size: 20px;
+    background-color: skyblue;
+}
+.chat-content p{
+    font-size: 15px;
+    padding:13px 15px 5px 15px;;/*상우하좌*/
+}
+/*전송, 닉네임바꾸기 입력창*/
+.chat-input-txt{
+    position: relative;
+    width: 44vw;
+    height: 180px;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1.5px solid darkgray;
+}
+.btn-box{
+    position: absolute;
+    width: 182px;
+    height: 180px;
+    right: 10px;
+    top: 0px;
+}
+/*메세지 전송 버튼*/
+.btn-box p .change-nic{
+    position: absolute;
+    display: block;
+    top: 10px;
+    border-radius: 35px;
+}
+.btn-box p{
+    width: 11vw;
+    height: 100vh;
+}
+.btn-box p .send-message{
+    position: absolute;
+    top: 70px;
+}
+.send-message{
+    padding: 36px 70px;
+    border-radius: 5px;
+}
+#send{
+    margin: 10px;
+    width: 32.5vw;
+    height: 160px;
+    text-align: left;
+    border: 1px solid darkgray;
+}

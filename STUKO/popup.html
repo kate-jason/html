@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>질문물어보기</title>
+    <link rel="stylesheet" href="css/popup_write.css">
+</head>
+<body>
+
+    <div id="main">
+        <button id="qst">질문작성하기</button>
+    </div>
+
+    <div class="write-popup-wrapper">
+        <span class="close">&times;</span> 
+        <div class="cover-popup">
+            <div class="topbar"><p>질문 작성하기</p></div>
+            <h3 class="qeust">궁금한건 물어보세요!</h3>
+            
+            <section class="new-write-box">
+                <div class="write-box-cover">
+                    <div class="name_txt">
+                        <p>작성자</p>
+                        <input type="text" name="text" value="">
+                    </div>
+                    <div class="main-notice">
+                        <textarea name="" id="" cols="55" rows="5" placeholder="궁금한점을 적어주세요"></textarea>
+                    </div>
+
+                    <div class="notice-pw-box">
+                        <p>비밀번호</p>
+                        <input type="password" name="password" value="">
+                        <p class="private-txt">8자 이내</p>
+                    </div>
+
+                    <div class="btn-enroll">
+                        <button type="submit">게시판 등록</button>
+                    </div>
+                </div>
+            </section>    
+        </div> <!--cover-popup-->
+    </div> <!--write-popup-wrapper-->
+</body>
+
+</html>

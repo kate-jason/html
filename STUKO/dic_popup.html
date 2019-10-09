@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>용어사전 게시글생성_popup</title>
+</head>
+<body>
+    <div class="Dictionary-popup-wrap">
+            <div class="cover-window">
+                <div class="topbar"><p>게시글 적기</p></div>
+                <h2 class="qeust">더 많은 지식은 당신을 풍부하게 만듭니다 :)</h2>
+                
+                <section class="word-write-box">
+                    <div class="dic-box-cover">
+                        <!--용어내용적기란-->
+                        <div class="name_txt">
+                            <p>용어명</p>
+                            <input type="text" name="text" value="">
+                        </div>
+                        <div class="main-notice">
+                            <p>용어 설명란</p>
+                            <textarea name="" id="" cols="55" rows="5" placeholder="당신의 지식을 공유해주세요 :)"></textarea>
+                        </div>
+
+                        <!--참고사이트-->
+                        <div class="reference-link">
+
+                            <div class="show-link">
+                                <p>참고 사이트</p>
+                                <input type="text" name="name" value="" placeholder="name"> <!--링크이름란-->
+                                <input type="text" name="link" value="" placeholder="link"> <!--링크주소란-->
+                                <div class="btn-show">
+                                    <button type="button">추가</button>
+                                </div>
+                            </div> <!-- show-link/기본보여주는div/ -->
+
+                            <div class="add-link">
+                                <p>참고 사이트</p>
+                                <input type="text" name="name" value="" placeholder="name"> <!--링크이름란-->
+                                <input type="text" name="link" value="" placeholder="link"> <!--링크주소란-->
+                                <div class="btn-show">
+                                    <button type="button">삭제</button>
+                                </div>
+                            </div> <!-- add-link /추가되는 div/ -->
+
+                        </div>
+    
+                        <div class="btn-conferm">
+                            <button type="submit">등 록</button>
+                        </div>
+                    </div>
+                </section>    
+            </div> <!--cover-popup-->
+        </div> <!--write-popup-wrapper-->
+</body>
+</html>
