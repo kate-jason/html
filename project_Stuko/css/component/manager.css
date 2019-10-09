@@ -150,16 +150,12 @@ input[type="password"] {
 /*---테이블스타일---*/
 
 .table-name{
-    position: relative;
-    width: 300px;
-    margin:10px 0;
-    top: 25%;
+    
 }
+.table-box > img, 
 .table-name>p{
-    position: absolute;
-    left: 35px;
-    top: 25%;
-    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
 }
 #manager-content-box{
     position: absolute;

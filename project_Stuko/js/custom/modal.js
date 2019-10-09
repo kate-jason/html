@@ -3,8 +3,10 @@
 $(document).ready(function(){
 
     function popup(openBtn, popup){
-        $(openBtn).click(function(){
+        $(openBtn).click(function(e){
+            // e.preventDefault;
             $(popup).addClass('block');
+            return false;
         });
     }
     
@@ -16,4 +18,5 @@ $(document).ready(function(){
     popup('.btn','.popup');
     closePopup('.close, .dim');
 
+    popup('.open', '.popup-removeproject')
 });
