@@ -1,0 +1,39 @@
+
+.wrap{
+    background-color: gainsboro;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+}
+.logo img{
+    /*로고이미지*/
+}
+
+.promotion{
+    width: 200px;
+    height: 300px;
+    border: 1px solid green;
+}
+
+/*------방 입장 서버-------*/
+#project-box{
+    width: 100vw;
+    height: 300px;
+    border: 1px solid  red;
+}
+
+
+/*------하단 footer-------*/
+
+.footer{
+    width: 100vw;
+    height: 100px;
+}
+
+.footer-logo img{
+    max-width: 50px;
+    max-height: 50px; 
+    background-color: gray;
+}

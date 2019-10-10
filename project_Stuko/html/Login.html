@@ -17,49 +17,65 @@
 
 <body>
     <!------------------------관리자 계정생성 페이지------------------------------->
-    <div id="Wrapper">  
-        <div class="popup-box1">
-            <div class="content-cover">
-                <header class="new-header">
-                    <div class="header-box">
-                        <p class="logo2"><img src="img/logo2.gif" alt="로고이미지" width="75" height="72"></p>
-                        <h4 class="header-write">계정이 없으신가요?</h4>
-                    </div>
-                </header>
+
+    <div class="popup popup-removeproject">
+        <div class="popup-cover">
+            <div class="popup-content">
+                <span class="close">닫기</span>
+                <div class="pu-contents">
+
+                    <!--content 내용-->
+                    <div id="Wrapper">  
+                        <div class="popup-box1">
+                            <div class="content-cover">
+                                <header class="new-header">
+                                    <div class="header-box">
+                                        <p class="logo2"><img src="img/logo2.gif" alt="로고이미지" width="75" height="72"></p>
+                                        <h4 class="header-write">계정이 없으신가요?</h4>
+                                    </div>
+                                </header>
+                                
+                                사용자가 계정을 입력하는 부분
+                                <div class="first-session-box">   
+                                    <form class="form-box2" method="GET" action="">
+                                        <div class="user-write-box2">
                 
-                <!--사용자가 계정을 입력하는 부분-->
-                <div class="first-session-box">   
-                    <form class="form-box2" method="GET" action="">
-                        <div class="user-write-box2">
-
-                            <div class="user-join-id">
-                                <label for="join-id">사 용 자</label>
-                                <input type="text" name="login" value="사용자">
-                            </div>
-
-                            <div class="user-join-pw">
-                                <label for="join-pw">비밀번호</label>
-                                <input type="password" name="password" value="비밀번호" >
-                            </div>
-
-                            <div class="user-join-pw1">
-                                <label for="join-pw1">비밀번호확인</label>
-                                <input type="password" name="password" value="비밀번호" >
-                            </div>
-
-                            <p class="wrong-join">/다시입력하세요/</p> <!--Ajax 부분-->
-                            
-                        </div> <!--/End of user-write-box2/-->
-                        
-                            <!--start 버튼-->
-                        <div class="submit-btn2">
-                            <button type="submit" id="click-start">START</button>
-                        </div>
-                    </form>
-                </div><!--first-session-box-->
-            </div><!--content-cover-->
-        </div><!--popup-box1-->
-    </div> <!--end Wrapper-->
+                                            <div class="user-join-id">
+                                                <label for="join-id">사 용 자</label>
+                                                <input type="text" name="login" value="사용자">
+                                            </div>
+                
+                                            <div class="user-join-pw">
+                                                <label for="join-pw">비밀번호</label>
+                                                <input type="password" name="password" value="비밀번호" >
+                                            </div>
+                
+                                            <div class="user-join-pw1">
+                                                <label for="join-pw1">비밀번호확인</label>
+                                                <input type="password" name="password" value="비밀번호" >
+                                            </div>
+                
+                                            <p class="wrong-join">/다시입력하세요/</p>
+                
+                                        </div>
+                                        
+                                            
+                                        <div class="submit-btn2">
+                                            <button type="submit" id="click-start">START</button>
+                                        </div>
+                                    </form>
+                                </div> <!--first-session-box-->
+                            </div> <!--content-cover-->
+                        </div> <!--popup-box1-->
+                    </div> <!--end Wrapper-->
+                
+                    <!--content 내용-->
+                </div>
+            </div>
+        </div>
+        <div class="dim"></div>
+    </div>
+    <!--end of popup-->
 
     <!-------------------------관리자로그인페이지-------------------------------->
 
@@ -76,9 +92,11 @@
 
                     <!--사용자가 계정을 입력하는 부분-->
                     <div class="login-text-box">
-                            <div class="logged-in-box">    
+                            <div class="logged-in-box">
+
                                 <form class="form-box" method="GET" action="">
                                     <div class="user-write-box">
+
                                         <div class="user-id">
                                             <label for="loginId">사 용 자</label>
                                             <input type="text" name="login" value="" >
@@ -96,18 +114,18 @@
                                     <div class="submit-btn1">
                                         <button id="btn-login" type="submit" value="">로그인</button>
                                     </div>
-                                </form>
+                                </form> <!--end form-->
                             
                                 <!-- 비밀번호 재생성(잃어버렸을때)-->
-                                <div class="reset-passwd">
-                                    <p><a href="#" class="open">비밀번호를 잃어버리셨나요?</a></p>
-                                </div><!--end reset-passwd-->
+                                    <p class="reset-passwd">
+                                        <a href="#" class="open">비밀번호를 잃어버리셨나요?</a>
+                                    </p>
 
-                        </div><!-- logged-in-box -->
+                            </div><!--end logged-in-box -->
                         <!-- 홈페이지로 돌아가기 버튼-->
-                        <div class="back">
+                        <p class="back">
                             <a href="#">Stuko 홈페이지 돌아가기</a>
-                        </div><!--end back-->
+                        </p><!--end back-->
 
                     </div><!-- login-text-box -->
                 </div><!--box-catching-->
