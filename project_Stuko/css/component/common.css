@@ -5,23 +5,26 @@
 
 /*네비게이션*/
 .header-nav{
+    display: inline-block;
     float: left;
-    width: 10vw;
+    width: 9.5vw;
     height: 100vh;
     background-color: skyblue;
 }
 
 /*----게시글----*/
 .contents{
-    position: relative;
-    width: 89vw;
+    display: inline;
+    width: 89vw; 
     float: right;
+    height: 100vh;
     border: 1px solid goldenrod;
 }
 .post-box{
-    position: absolute;
-    width: 41vw;
+    display: inline-block;
+    width: 41.5vw;
     height: 100vh;
+    margin-left: 12px;
 }
 /*베스트글*/
 .best-notice{
@@ -52,7 +55,7 @@
 }
 /*게시글-box*/
 .notice .time-line{
-    max-height: 68vh;
+    max-height: 89%;
     padding: 5px;
     margin-top: 10px;
     list-style: none;
@@ -65,7 +68,7 @@
 }
 .notice .cbp-tmtime>li{
     height: 200px;
-    margin: 10px 0px;
+    margin-bottom: 10px;
     list-style: none;
     background-color: cornflowerblue;
 }
@@ -83,7 +86,7 @@
     padding: 2px;
 }
 .cbp-tmtime{
-    position: relative;
+    /* position: relative; */
     /* margin: 10px 0 0 0; */
 	padding: 5px;
     list-style: none;
@@ -105,10 +108,11 @@
     padding: 0;
   }
 .chat-background{
-    width: 46vw;
+    width: 49%;
     height: 100vh;
     float: right;
     font-size: 11px;
+    vertical-align: top;
     border-left: 1px solid darkgray;
 }
 .chat-list-wrap{
@@ -189,8 +193,10 @@
 }
 /*전송, 닉네임바꾸기 입력창*/
 .chat-input-txt{
+    left: 18px;
     position: relative;
-    width: 100%;
+    width: 96%;
+    bottom: 10px;
     border: 1.5px solid darkgray;
 }
 .btn-box{
@@ -228,7 +234,7 @@
 #send{
     resize: none;
     margin: 10px;
-    width: 32.5vw;
+    width: 28.5vw;
     height: 160px;
     text-align: left;
     border: 1px solid darkgray;

@@ -1,0 +1,200 @@
+#wrap{
+    margin: 0;
+    /* position: relative; */
+}
+
+/*네비게이션*/
+.header-nav{
+    position: absolute;
+    width: 9%;
+    height: 100%;
+    background-color: skyblue;
+    border: 1px solid red;
+}
+
+/*----게시글----*/
+.contents{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid goldenrod;
+}
+/*베스트글*/
+.best-notice{
+    position: absolute;
+    width: 44%;
+    height: 250px;
+    left: 10%;
+    top: 15px;
+    background-color: rgb(156, 152, 209);
+}
+/*--------타임라인게시글-----------*/
+.notice{
+    position: relative;
+
+    height: 1080px;
+    left: 10%;
+}
+/*search*/
+.search{
+    position: absolute;
+    width: 100%;
+    top: 280px;
+}
+.search input[type="text"]{
+    width: 98%;
+    border-radius: 2px;
+    padding: 20px 10px;
+    border: 0;
+    text-align: left;
+    font-size: 18px;
+    border: 1px solid red;
+}
+/*게시글-box*/
+.notice .time-line{
+    padding: 5px;
+    list-style: none;
+    overflow: auto;
+    background-color: chocolate;
+}
+.notice .cbp-tmtime>li{
+    height: 200px;
+    list-style: none;
+    background-color: cornflowerblue;
+}
+.notice .cbp-tmtime>li:hover{
+    background-color: aliceblue;
+
+}
+.notice .cbp-tmtime li .timeline-in>h2{
+    padding: 17px;
+}
+.notice .cbp-tmtime li .timeline-in>p{
+    padding: 5px 17px;
+}
+.cbp-time{
+    position: absolute;
+    bottom: 20px;
+    left: 17px;
+}
+.cbp-tmtimeline{
+    position: relative;
+    margin: 30px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+/* .cbp-tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #afdcf8;
+	left: 20%;
+	margin-left: -10px;
+} */
+
+/*------------채팅창------------*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+.chat-background{
+    height: 100%;
+    top: 0;
+    right: 0;
+    font-size: 11px;
+    background-color: antiquewhite;
+}
+.chat-list-wrap{
+    height: 80%;
+    overflow: auto; /*scroll bar속성-박스를 넘어가지 않으면 스크롤바가 나오지 않고, 
+                                    박스를 넘어갈 때에는 스크롤바가 나옵니다.*/
+    list-style: none;
+}
+.chat-list-wrap .header{
+    position: relative;
+    padding: 25px 15px;
+    color: balck;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid #464646;
+} 
+.chat-list-wrap .header>p{position: absolute; top: 16px;}
+
+.header>p:first-child{float: left;}
+.header>p:nth-child(2){
+    position: absolute;
+    right:45px;
+}
+.header>p:last-child{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 800;
+    right: 20px;
+}
+.chat-list-wrap .chat-list{
+    padding:0 15px;
+}
+.chat-list-wrap .chat-list ul {
+    width: 100%;
+    list-style: none;
+    margin-top: 3px;
+  }
+.chat-list-wrap .chat-list ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rebeccapurple;
+}
+.chat-list-wrap .chat-list ul li table{
+    width: 100%;
+}
+.chat-list-wrap .chat-list ul li table td.profile-td{
+    width: 80px;
+    /* border: 1px solid green; */
+}
+.chat-list-wrap .chat-list ul li table td.profile-td img{
+    width: 30px;
+    height: auto;
+    border: 1px solid fuchsia;
+}
+.chat-list-wrap .chat-list ul li table 
+.random-name{
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+}
+.chat-td{
+    width: 50%;
+    height: 15%;
+    border-radius: 3px;
+    background-color:skyblue;
+  }
+.chat-content{
+    width: 50%;
+    padding: 5px 0;
+    margin-left: 10px;
+    line-height: 16px;
+}
+
+.none{
+    width: 30%;
+}
+/*전송, 닉네임바꾸기 입력창*/
+.chat-input-txt{
+    position: relative;
+    height: 18%;
+    top: 10px;
+    border: 1px solid red;
+}
+.btn-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 77.5%;
+    border: 1px solid blueviolet;
+}
+.btn-box>button{
+    display: block;
+}
