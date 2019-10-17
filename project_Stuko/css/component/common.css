@@ -5,7 +5,7 @@
 
 /*네비게이션*/
 .header-nav{
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
     width: 9.5vw;
     height: 100vh;
@@ -13,19 +13,17 @@
     letter-spacing: 3px;
     text-align: center;
 }
-.
 
 /*----게시글----*/
 .contents{
-    /* display: inline; */
-    width: 86vw; 
-    float: right;
-    height: 100vh;
+    display: inline;
+    /* width: 86vw; 
+    height: 100vh; */
     border: 1px solid goldenrod;
 }
 .post-box{
     display: inline-block;
-    width: 41.5vw;
+    width: 40vw;
     height: 100vh;
     margin-left: 12px;
 }
@@ -58,7 +56,7 @@
 }
 /*게시글-box*/
 .notice .time-line{
-    max-height: 83%;
+    max-height: 75%;
     padding: 5px;
     margin-top: 10px;
     list-style: none;
@@ -70,7 +68,7 @@
     overflow: auto;
 }
 .notice .cbp-tmtime>li{
-    height: 200px;
+    height: 170px;
     margin-bottom: 10px;
     list-style: none;
     background-color: cornflowerblue;
