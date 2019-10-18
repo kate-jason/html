@@ -51,7 +51,7 @@ button::after{
 /*----input기본타입-----*/
 
 input[type="text"], 
-input[type="password"]::after { 
+input[type="password"]{ 
     height: auto; /* 높이 초기화 */ 
     line-height: normal; /* line-height 초기화 */ 
     /* margin-padding 여백 설정 */ 
