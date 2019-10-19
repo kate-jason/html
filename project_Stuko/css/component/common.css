@@ -16,10 +16,10 @@
 
 /*----게시글----*/
 .contents{
-    display: inline;
-    /* width: 86vw; 
-    height: 100vh; */
+    height: 100vh;
+    display: inline-block;
     border: 1px solid goldenrod;
+    width: 89vw;
 }
 .post-box{
     display: inline-block;
@@ -51,7 +51,7 @@
     padding: 20px 10px;
     border: 0;
     text-align: left;
-    font-size: 24px;
+    font-size: 15px;
     margin-left: 6px;
 }
 /*게시글-box*/
@@ -121,21 +121,20 @@
     /* overflow-x: auto; /*scroll bar속성-박스를 넘어가지 않으면 스크롤바가 나오지 않고,  */
                                     /*박스를 넘어갈 때에는 스크롤바가 나옵니다.*/
     list-style: none;
-    padding: 20px;
+    /* padding: 20px; */
     margin-left: 10px;
 }
 .chat-list-wrap .header{
     position: relative;
-    padding: 29px 15px;
+    padding: 20px 15px;
     color: black;
-    font-size: 15px;
     text-align: center;
-    border-bottom: 1px solid #464646;
+    border-bottom: 1px solid #464646
 } 
 .chat-list-wrap .header>p{
     position: absolute; 
     top: 16px;
-    font-size: 24px;
+    font-size: 15px;
 }
 
 .header>p:first-child{float: left;color: green;}
@@ -149,7 +148,7 @@
 }
 .header>p:last-child{
     position: absolute;
-    font-size: 27px;
+    font-size: 14px;
     font-weight: 800;
     right: 20px;
 }
@@ -175,7 +174,7 @@
     position: relative;
     bottom: 33px;
     left: 52px;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
 }
 .chat-content{
@@ -185,11 +184,11 @@
     margin-top: -24px;
     margin-left: 47px;
     line-height: 16px;
-    font-size: 20px;
+    font-size: 9px;
     background-color: skyblue;
 }
 .chat-content p{
-    font-size: 15px;
+    font-size: 11px;
     padding:13px 15px 5px 15px;;/*상우하좌*/
 }
 /*전송, 닉네임바꾸기 입력창*/
