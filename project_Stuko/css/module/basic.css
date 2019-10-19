@@ -12,7 +12,7 @@ button{
     cursor:pointer;
     color:#5f5f5f;
     font-family:Arial;
-    font-size:17px;
+    font-size:13px;
     letter-spacing: 5px; /*단어간격*/
     padding:12px 30px;
     text-decoration:none;
@@ -40,7 +40,7 @@ button::after{
     cursor:pointer;
     color:#c9c9c9;
     font-family:Arial;
-    font-size:17px;
+    font-size:13px;
     letter-spacing: 5px; /*단어간격*/
     padding:12px 30px;
     text-decoration:none;
@@ -51,7 +51,7 @@ button::after{
 /*----input기본타입-----*/
 
 input[type="text"], 
-input[type="password"]::after { 
+input[type="password"]{ 
     height: auto; /* 높이 초기화 */ 
     line-height: normal; /* line-height 초기화 */ 
     /* margin-padding 여백 설정 */ 

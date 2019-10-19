@@ -42,7 +42,7 @@
     text-align: center;
 }
 .logo2{ 
-    display: inline-block;
+    display: block;
     margin: 0;
 }
 .header-write{
@@ -140,7 +140,7 @@
 }
 #wrap .All-boxing{
     position: absolute; 
-    width: 800px;
+    width: 700px;
     height: 100vh;
     left: 50%;
     transform: translateX(-50%);
@@ -152,6 +152,7 @@
 }
 .logo-box{
     width: 100%;
+    padding: 20px 0;
     text-align: center;
 }
 .logo{
@@ -169,6 +170,9 @@
     left: 47%;
     top: 20%; */
 }
+.logo>img{
+    padding: 0 30px;
+}
 /*--------------*/
 .logged-in-box{
     position: relative;
@@ -182,17 +186,13 @@
     width: 50%;
     margin: 0 auto;
 }
-.user-write-box{
 
-}
 .user-pw{margin-top: 25px;} /*input 간격조정*/
 .user-id label{
-    width: 110px;
-    padding: .8em .5em; /*input요소의 padding 값만큼*/
+    padding: .8em 0.7em; /*input요소의 padding 값만큼*/
     color: #595959; 
 }
 .user-pw label{
-    width: 108px;
     padding: .8em .5em; /*input요소의 padding 값만큼*/
     color: #595959;  
 }
@@ -219,8 +219,7 @@ input[type="password"]:focus {
 /*--------------*/
 /*로그인 확인 버튼*/
 .submit-btn1{
-    position: relative;
-    /* width: 500px; */
+    width: 500px;
 }
 #btn-login{
     height: auto;
@@ -229,8 +228,8 @@ input[type="password"]:focus {
 }
 #btn-login{
     color: #333333;
-    font-size: 17pt;
-    letter-spacing: 15px;
+    font-size: 15pt;
+    letter-spacing: 5px;
 }
 #btn-login:hover{
     color: #fff;    /*버튼에 마우스를 올렸을때 효과*/
@@ -241,33 +240,21 @@ input[type="password"]:focus {
 }
 /*--------------비밀번호 재생성(잃어버렸을때)----------------*/
 .reset-passwd{
-    max-width: 100%;
-    height: 50px;
+    position: relative;
 }
 .reset-passwd>a{
+    position: absolute;
+    left: 53%;
     width: 180px;
-    margin: 0;
     color: black;
+    font-size: 13px;
     text-decoration-line: none;
 }
 .reset-passwd>p>a:hover{
-    color: #252525;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 13px;
 }
-/*------홈페이지돌아가기--------*/
-.login-text-box .back{
-    position: relative;
-    max-width: 100%;
-    height: 30px;
-    top: 42vh;
-}
-.login-text-box .back>a{
-    position: absolute;
-    margin: 0;
-    color: black;
-    font-size: 18px;
-    right: 200px;
-}
+
 /*-----------------------------------------------------------------*/
 /*--------------------------비밀번호생성 팝업창-------------------------*/
 
