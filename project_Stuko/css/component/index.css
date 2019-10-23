@@ -6,8 +6,8 @@
 .main-display{
     margin: 60px auto;
     background-color: azure;
-    height: 500px;
-    width: 900px;
+    height: 600px;
+    width: 1000px;
 }
 .logo{
     width: 50px;
@@ -19,49 +19,60 @@
 }
 
 .promotion{
-    width: 200px;
+    width: 400px;
     height: 400px;
     float: right;
+    margin-right: 20px;
     border: 1px solid green;
 }
 .prom-logo{
-    background: url(/project_Stuko/img/) no-repeat;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: goldenrod;
+    /*background: url(/project_Stuko/img/) no-repeat;*/
 }
 .prom-txt{
-    
     letter-spacing: 2px;
     font-size: 12px;
     color: #000;
 }
-
-
+.btn-sub-start{
+    width: 130px;
+    height: 30px;
+    border: 1px solid green;
+    margin: 0 auto;
+}
+.st-btn{
+    text-align:center;
+    padding: 8px 30px;
+    border-radius: 18px;
+    color: #fff;
+    background-color: rgb(71, 81, 219);
+}
 /*------방 입장 서버-------*/
 .project-box{
-    position: relative;
     height: 300px;
+    padding-top: 75px;
     border: 1px solid  red;
 }
 .project-box-list{
-    position: absolute;
+    padding: 0 0 0 150px;
+    margin: 0 auto;
     border: 1px solid green;
-    height: 200px;
-    width: 900px;
-    top: 20px;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
+    height: 225px;
 }
 .project-box-list li{
     display: inline-block;
+    width: 250px;
+    height: 150px;
     list-style: none;
-    background-color: cornflowerblue;
+    margin: 25px 14px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px grey; /*그림자속성 h-shadow(필수), v-shadow(필수), blur(선택), color(선택) 순*/
     padding: 10px;
 }
-.project-box-list li a img{
-    width: 80px;
-    height: 80px;
-    background-color: cadetblue;
-}
+
 
 /*------하단 footer-------*/
 
@@ -79,7 +90,8 @@
 
 .footer-logo{
     display: inline-block;
-    max-width: 50px;
-    max-height: 50px; 
+    width: 60px;
+    height: 60px;
+    margin: 20px 0 20px 70px;
     background-color: gray;
 }
