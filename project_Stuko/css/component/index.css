@@ -21,7 +21,7 @@
 }
 .main-image .bg3{
     position: absolute;
-    top: 970px;
+    top: 960px;
     right: 0;
 }
 
@@ -33,76 +33,170 @@
     border: 1px solid goldenrod;
 }
 .main-display{
-    margin: 80px auto;
-    background-color: azure;
-    width: 70vw;
-    height: 800px;
+    margin: 0px auto;
+    border: 1px solid gray;
+    width: 85vw;
+    height: 750px;
 }
-.logo{
-    width: 50px;
-    height: 50px;
+.sub-display{
+    /* border: 1px solid gray; */
+    /* width: 50vw; */
+    display: inline-block;
+    height: 740px;
+    margin-left: 50px;
 }
+/*메인 꾸밈 이미지 code*/
+.images-cover{
+    position: relative;
+    z-index: -5;
+}
+.sub-img{
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    /* border: 1px solid gray; */
+    background: url(/project_Stuko/img/main/computer.png) 100px 150px no-repeat;
+}
+.sub-img2{
+    position: absolute;
+    width: 117px;
+    height: 175px;
+    left: 450px;
+    top: 400px;
+    /* border: 1px solid gray; */
+    background: url(/project_Stuko/img/main/woman.svg)no-repeat;
+}
+.sub-img3{
+    position: absolute;
+    width: 117px;
+    height: 175px;
+    left: 150px;
+    top: 47px;
+    /* border: 1px solid gray; */
+    background: url(/project_Stuko/img/main/sit_man.svg)no-repeat;
+}
+.sub-img4{
+    position: absolute;
+    width: 102px;
+    height: 88px;
+    left: 455px;
+    top: 300px;
+    /* border: 1px solid gray; */
+    background: url(/project_Stuko/img/main/chat_thing_bx.svg)no-repeat;
+}
+
 .Logo-img{
     /*로고이미지*/
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
     background: url(/project_Stuko/img/main/mainpage_logo.svg)no-repeat;
 }
 .promotion{
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    /* height: 400px; */
     float: right;
-    margin-right: 20px;
+    margin: 160px 0px 0 0;
     border: 1px solid green;
 }
 .prom-logo{
-    width: 200px;
+    width: 150px;
     height: 50px;
-    margin: 20px auto;
-    background-color: goldenrod;
-    /*background: url(/project_Stuko/img/) no-repeat;*/
+    margin: 0 auto;
+    background: url(/project_Stuko/img/main/text_logo.svg) no-repeat;
 }
+
+/*사이트 홍보글-code*/
 .prom-txt{
+    width: 267px;
+    margin: 50px auto; /*중간정렬맞추기*/
+    font-size: 13px;
+    line-height: 25px;
     letter-spacing: 2px;
-    font-size: 12px;
     color: #000;
 }
 .btn-sub-start{
-    width: 130px;
-    height: 30px;
-    border: 1px solid green;
+    width: 263px;
+    height: 39px;
     margin: 0 auto;
 }
 .st-btn{
-    text-align:center;
-    padding: 8px 30px;
-    border-radius: 18px;
-    color: #fff;
+    padding: 10px 87px;
+    border-radius: 20px;    
     background-color: rgb(71, 81, 219);
+}
+.st-btn a{
+    width: 50px;
+    height: 14px;
+    text-align:center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
 }
 /*------방 입장 서버-------*/
 .project-box{
+    width: 100vw;
     height: 500px;
     padding-top: 75px;
     border: 1px solid  red;
 }
 .project-box-list{
-    padding: 0 0 0 150px;
+    max-width: 100%; 
+    height: 300px;
     margin: 0 auto;
+    padding: 0;
+    text-align: center;
     border: 1px solid green;
-    height: 225px;
 }
-.project-box-list li{
+.project-box-list .slide{
     display: inline-block;
     width: 250px;
     height: 150px;
     list-style: none;
-    margin: 25px 14px;
+    margin: 35px 14px;
     border-radius: 8px;
+    background-color: #fff;
     box-shadow: 1px 3px 8px grey; /*그림자속성 h-shadow(필수), v-shadow(필수), blur(선택), color(선택) 순*/
     padding: 10px;
 }
-
+.project-box-list li a span{
+    padding: 29px 0px;
+    width: 250px;
+    height: 75px;
+    border-radius: 8px;
+    display: block;
+    color: #fff;
+    background-color: #4f5d82;
+}
+/*슬라이드 버튼's*/
+.slide-btn-circle{
+    width: 70px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.slide-btn-circle a{
+    display: inline-block;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: gray;
+}
+.btn-left-trg{
+    display: inline-block;
+    margin: 0 40px;
+    width: 22px;
+    height: 43px;;
+    background: url(/project_Stuko/img/main/btn_left.svg)no-repeat;
+}
+.btn-right-trg{
+    display: inline-block;
+    margin: 0 40px;
+    width: 22px;
+    height: 43px;
+    background: url(/project_Stuko/img/main/btn_right.svg)no-repeat;
+}
 
 /*------하단 footer-------*/
 
@@ -111,7 +205,11 @@
     width: 100vw;
     height: 150px;
 }
-
+.footer-cover{
+    border: 1px solid red;
+    width: 85vw;
+    margin: 0 auto;
+}
 .copyright{
     width: auto;
     height: auto;
@@ -123,6 +221,6 @@
     display: inline-block;
     width: 60px;
     height: 60px;
-    margin: 20px 0 20px 70px;
+    margin: 35px 0 20px 0px;
     background: url(/project_Stuko/img/main/logo.svg) no-repeat;
 }
