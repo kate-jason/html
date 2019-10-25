@@ -49,7 +49,6 @@
 .word-page:hover{background-color: #3ea4fa;}
 /*----게시글----*/
 .contents{
-    height: 100vh;
     display: inline-block;
     border: 1px solid goldenrod;
     width: 89vw;
@@ -89,14 +88,23 @@
     margin: 5px;
     border-bottom: 1.5px solid #000;
 }
+.search-cover{
+    display: inline-block;
+}
+.search-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    background: url(/project_Stuko/img/main/search.svg)no-repeat;
+}
 .search input[type="search"]{
-    width: 94%;
+    width: 90%;
     background-color: none;
-    padding: 16px 10px;
+    padding: 16px 15px;
     border: 0;
     text-align: left;
     font-size: 15px;
-    margin-left: 6px;
 }
 /*게시글-box*/
 .time-line{
@@ -244,7 +252,7 @@
     margin: -16px 0 0;
 }
 .chat-content{
-    /* width: 60%; */
+    width: 60%;
     height: 40px;
     border-radius: 5px;
     margin-top: -24px;
@@ -278,29 +286,33 @@
     width:100%;
 }
 /*메세지 전송 버튼*/
-.btn-box p .change-nic{
-    top: 10px;
-    line-height: 5vh;;
-}
-.btn-box p{
+.btn-box{
     width: 11vw;
-}
-.btn-box p .send-message{
-    bottom: 10px;
-    line-height: 9vh;
 }
 .btn-box button {
     padding:0px 15px;
-    
 }
-.send-message{
+.btn-box .change-nic{
+    top: 10px;
+    line-height: 5vh;
+    background-color: #8B00FF;
+    color: #fff;
+}
+.btn-box .send-message{
+    height: 100px;
+    bottom: 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    line-height: 9vh;
+}
+/* .send-message{
+    border-radius: 8px;
     padding: 36px 70px;
-    border-radius: 5px;
-}
+} */
 #send{
     resize: none;
     margin: 10px;
-    width: 28.5vw;
+    max-width: 28.5vw;
     height: 160px;
     text-align: left;
     border: 1px solid darkgray;

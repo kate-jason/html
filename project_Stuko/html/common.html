@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/project_Stuko/css/component/common.css">
     <link rel="stylesheet" href="/project_Stuko/css/base/base.css">
     <link rel="stylesheet" href="/project_Stuko/css/lib/modal_style.css">
-    <link rel="stylesheet" href="/project_Stuko/css/module/basic.css">
+    <!-- <link rel="stylesheet" href="/project_Stuko/css/module/basic.css"> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="/project_Stuko/js/custom/modal.js"></script>
     <title>Stuko</title>
@@ -62,7 +62,7 @@
                                     <div class="chap-icon"></div>
                                     <div class="timeline-in">
                                         <h3>| 고양이</h3>
-                                        <p>
+                                        <p> 
                                             3번째 큰 수 찾는 소스인데요<br>
                                             j++를 하는 이유가 뭘까요?<br>
                                             Seen을 비교하는 이유도 뭘까요?<br>
@@ -77,7 +77,10 @@
                 </div>
                 <div class="notice">
                     <!--게시글검색-->
+                   
+                    
                     <div class="search">
+                        <div class="search-cover"><span class="search-icon"></span></div>
                         <input type="search" placeholder="게시글검색" />
                     </div>
                     <!--타임라인게시물-->
@@ -161,8 +164,8 @@
                         <div class="chat-input-txt">
                             <textarea name="text" id="send" cols="100" rows="10"></textarea>
                             <div class="btn-box">
-                                <p><button type="button" class="change-nic">닉네임바꾸기</button></p>
-                                <p><button type="submit" class="send-message">전송</button></p>
+                                <button class="change-nic">닉네임바꾸기</button>
+                                <button type="submit" class="send-message">전송</button>
                             </div>
                         </div>
                 </div><!-- chat-background -->
