@@ -30,16 +30,15 @@
 .contents{
     width: 100vw;
     height: 960px;
-    border: 1px solid goldenrod;
+    /* border: 1px solid goldenrod; */
 }
 .main-display{
     margin: 0px auto;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     width: 85vw;
     height: 750px;
 }
 .sub-display{
-    /* border: 1px solid gray; */
     /* width: 50vw; */
     display: inline-block;
     height: 740px;
@@ -72,7 +71,6 @@
     height: 175px;
     left: 150px;
     top: 47px;
-    /* border: 1px solid gray; */
     background: url(/project_Stuko/img/main/sit_man.svg)no-repeat;
 }
 .sub-img4{
@@ -81,7 +79,6 @@
     height: 88px;
     left: 455px;
     top: 300px;
-    /* border: 1px solid gray; */
     background: url(/project_Stuko/img/main/chat_thing_bx.svg)no-repeat;
 }
 
@@ -97,7 +94,7 @@
     /* height: 400px; */
     float: right;
     margin: 160px 0px 0 0;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .prom-logo{
     width: 150px;
@@ -138,7 +135,7 @@
     width: 100vw;
     height: 500px;
     padding-top: 75px;
-    border: 1px solid  red;
+    /* border: 1px solid  red; */
 }
 .project-box-list{
     max-width: 100%; 
@@ -146,7 +143,7 @@
     margin: 0 auto;
     padding: 0;
     text-align: center;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .project-box-list .slide{
     display: inline-block;
@@ -172,7 +169,7 @@
 .slide-btn-circle{
     width: 70px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .slide-btn-circle a{
     display: inline-block;
@@ -206,7 +203,7 @@
     height: 150px;
 }
 .footer-cover{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 85vw;
     margin: 0 auto;
 }

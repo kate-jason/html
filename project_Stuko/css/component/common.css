@@ -23,7 +23,7 @@
 .notice-write{
     max-width: 100wv;
     height: 50px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .notice-write:hover{background-color: #3ea4fa;}
 .notice-write a{
@@ -37,7 +37,7 @@
     display: block;
     max-width: 100wv;
     height: 50px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .word-page a{
     color: #fff;
@@ -50,7 +50,7 @@
 /*----게시글----*/
 .contents{
     display: inline-block;
-    border: 1px solid goldenrod;
+    /* border: 1px solid goldenrod; */
     width: 89vw;
 }
 .post-box{
@@ -113,7 +113,7 @@
     margin-top: 10px;
     list-style: none;
     overflow: auto;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 .line-notice{
     max-height:100vh;
