@@ -56,7 +56,7 @@
 .post-box{
     display: inline-block;
     width: 41vw;
-    height: 100vh;
+    /* height: 100vh; */
 }
 /*베스트글*/
 .best-notice{
@@ -108,7 +108,7 @@
 }
 /*게시글-box*/
 .time-line{
-    height: 64vh;
+    height: 60vh;
     padding: 5px;
     margin-top: 10px;
     list-style: none;
@@ -270,7 +270,6 @@
     left: 18px;
     position: relative;
     width: 96%;
-    bottom: 10px;
     border: 1.5px solid darkgray;
 }
 .btn-box{
